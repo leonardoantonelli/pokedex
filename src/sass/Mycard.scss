@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ultra&display=swap');
+
+.mycard{
+    border-radius: 30px;
+    background-color: rgba(10, 10, 10, 0.767);
+    height: 200px;
+     overflow: hidden;
+     text-decoration: none;
+ }
+
+.title{
+    position: relative !important;
+    top: 40px !important;
+    left: 20px !important;
+     text-transform: capitalize;
+}
+
+
+.imgcard{
+    height:200px ;
+     bottom: 0;
+     overflow: hidden;
+     position: absolute;
+         top: 13px;
+
+}
+
+.mycol{
+   display: flex;
+    flex-direction: column-reverse;
+}
+.idpoke{
+  font-family: 'Ultra', serif;
+  font-size: 100px;
+ 
+color: rgba(0, 0, 0, 0.274);
+}
+.myleftimg{
+ height: 250px !important;
+ background-size: cover;
+  opacity: 0.2 !important;
+  top: 20px;
+  left: -20px;
+}
+.myrightimg{
+     height: 80px !important;
+      background-size: cover;
+  opacity: 0.1 !important;
+   top: -39px;
+    left: -190px;
+}
+body{
+   
+   background-color: rgba(0, 0, 0, 0.082);
+}
