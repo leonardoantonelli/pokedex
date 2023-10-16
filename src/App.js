@@ -10,9 +10,9 @@ function App() {
   return (
     <>
       <Myheader />
+      <Pokedex />{" "}
       <Router>
         <Routes>
-          <Route exact path="/" Component={Pokedex} />
           <Route exact path="/pokemon/:id" Component={CardDetail} />
         </Routes>
       </Router>
